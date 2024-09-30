@@ -86,6 +86,11 @@ def contar():
                 cantidad_dias+=1
             
             z = 0
+            '''recorre el vector con todas las personas y en el caso de 
+            encontrar una coincidencia se le suma 1 a esa persona en 
+            el dia actual
+
+            '''
             while z < j :
 
                 if  personas[z] in linea:
