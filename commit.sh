@@ -1,7 +1,8 @@
 #! /bin/bash
 
-echo "Commit name:"
-read title
+
 git add .
 git status
+echo "Commit name:"
+read title
 git commit -m "$title"

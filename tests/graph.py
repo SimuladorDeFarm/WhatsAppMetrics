@@ -1,20 +1,20 @@
 import matplotlib.pyplot as plt
 
-# Suponiendo que este es tu vector de datos para el eje Y
+# data array for axis y
 y = [10, 20, 15, 30, 25]
 
-# El eje X será el índice de cada elemento en el vector Y
+# x axis will be index of each element of y array
 x = range(len(y))
 
-# Crear el gráfico
+# Create Graph
 plt.plot(x, y, marker='o')
 
-# Etiquetas de los ejes
+# labels of axis
 plt.xlabel('Posiciones (índice)')
 plt.ylabel('Valores (eje Y)')
 
-# Título del gráfico
+# Graph title
 plt.title('Gráfico de X vs Y')
 
-# Mostrar el gráfico
+# print Graph
 plt.show()

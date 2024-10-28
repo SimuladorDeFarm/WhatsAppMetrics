@@ -1,19 +1,20 @@
 #! /bin/bash
 
-#crea entorno virtual
-echo "Creando entorno vitual..."
+#create virtual enviroment
+echo "Creating virtual enviroment..."
 python -m venv venv
 
-#activa el entorno vitual
+#activate virtual enviroment
 source venv/bin/activate
-echo "Entorno vitual ACTIVADO"
+echo "Virtual enviroment ACTIVATED"
 
-#instala las librerias de requeriments.txt
+#Install the libreries of requirements.txt
+echo "Installing libraries"
 python -m pip install -r requirements.txt
 
-#imprime las librerias
+#print install process
 pip freeze 
 
-#desactiva el entorno vitual
+#deactivate virtual enviroment
 deactivate
-echo "Entorno vitual DESACTIVADO"
+echo "Virtual Enviroment DEACTIVATE"
