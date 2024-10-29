@@ -2,3 +2,4 @@ Chat.txt
 /tests
 /venv
 *.pyc
+/__pycache__

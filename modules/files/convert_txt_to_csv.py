@@ -1,4 +1,10 @@
 
 
-def convert_txt_to_csv(file):
+def file_to_list(file):
     
+    linea = file.readlines()
+    
+    return linea
+
+
+
