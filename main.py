@@ -1,10 +1,12 @@
-from modules.files.load_file import load_file
-from modules.files.convert_txt_to_csv import file_to_list
-from modules.files.convert_txt_to_csv import line_validator
+from modules.utils import *
+
+def main():
+
+    file = load_file()
+    messages = line_validator(file)
+    print(messages)
+    file.close()
 
 
-file = load_file()
-
-print(line_validator(file))
-
-file.close() 
+if __name__ == "__main__":
+    main()
