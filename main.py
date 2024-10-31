@@ -6,7 +6,8 @@ def main():
     messages = line_validator(file)
     #print(messages)
 
-    print(remove_spaces(messages[0]))
+    
+    print(convert_txt_to_csv(messages))
     file.close()
 
 
