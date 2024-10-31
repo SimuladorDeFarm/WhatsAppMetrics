@@ -4,7 +4,9 @@ def main():
 
     file = load_file()
     messages = line_validator(file)
-    print(messages)
+    #print(messages)
+
+    print(remove_spaces(messages[0]))
     file.close()
 
 
