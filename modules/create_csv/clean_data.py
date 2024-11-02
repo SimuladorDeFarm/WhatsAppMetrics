@@ -1,4 +1,6 @@
+import re
 
+#remueve los espacios de un string
 def remove_spaces(string):
 
     string_whithout_space = string.replace(" ", "")
@@ -20,3 +22,26 @@ def remove_spaces_of_list(array):
         i+=1
     
     return array_without_spaces
+
+
+def filds_to_elements(array):
+
+    array_len = len(array)
+    #matrix = [[""] * 4 for _ in range(array_len)]
+    matrix = []
+
+    pattern = r"(\d{2}/\d{2}/\d{4}),(\d{2}:\d{2})-(.*?):(.+)"
+
+
+    for line in array:
+        
+        match = re.match(pattern, line.strip())
+            
+        if match:
+            date, time, name, message = match.groups()
+            matrix.append([date, time, name, message])
+
+
+    return matrix
+
+#def convert_matrix_to_numpy():

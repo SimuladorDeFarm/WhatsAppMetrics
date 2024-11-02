@@ -7,7 +7,7 @@ def main():
     #print(messages)
 
     
-    print(convert_txt_to_csv(messages))
+    convert_txt_to_csv(messages)
     file.close()
 
 
