@@ -16,7 +16,8 @@ def msj_line_validator(text):
     else:
         return True
 
-def line_validator(file):
+
+def array_line_validator(file):
 
     lines = file_to_list(file)
 
