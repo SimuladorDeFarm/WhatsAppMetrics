@@ -1,17 +1,14 @@
 from modules.utils import *
+import numpy as np
 
 def main():
 
-    file = load_file()
-    messages = array_line_validator(file)
+    #prepare the data: extract of file, validate data and transform into numpy array
+    array = main_data_preparation()
     
-
-    
-    print(convert_txt_to_csv(messages))
+    #convert_txt_to_csv(array)
 
 
-
-    file.close()
 
 if __name__ == "__main__":
     main()

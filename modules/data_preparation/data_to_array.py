@@ -1,8 +1,12 @@
-from modules.tools  import *
-
-import pandas as pd
 import numpy as np
 import re
+
+def python_list_to_numpy(array):
+    
+    array_np = np.array(array)
+
+    return array_np
+
 
 #remueve los espacios de un string
 def remove_spaces(string):
@@ -47,23 +51,3 @@ def filds_to_elements(array):
 
 
     return matrix
-
-
-def create_and_save_csv(array):
-
-    DF = pd.DataFrame(array)
-
-    DF.to_csv("messages.csv")
-
-
-def convert_txt_to_csv(array):
-
-    array = remove_spaces_of_list(array)
-
-    array = filds_to_elements(array)
-
-    array = python_list_to_numpy(array)
-
-    create_and_save_csv(array)
-
-    return array
