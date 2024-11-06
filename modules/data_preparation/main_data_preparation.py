@@ -1,6 +1,7 @@
-from modules.data_preparation.data_to_array import *
-from modules.data_preparation.load_file     import *
-from modules.data_preparation.validate_data import *
+from modules.data_preparation.data_to_array     import *
+from modules.data_preparation.load_file         import *
+from modules.data_preparation.validate_data     import *
+from modules.data_preparation.identify_members  import *
 
 def main_data_preparation():
     
@@ -16,5 +17,6 @@ def main_data_preparation():
 
     array = python_list_to_numpy(array)
 
+    array_members = identify_members(array)
 
-    return array
+    return array, array_members
