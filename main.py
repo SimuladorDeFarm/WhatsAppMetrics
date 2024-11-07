@@ -8,7 +8,7 @@ def main():
     
     #convert_txt_to_csv(array)
 
-
+    main_data_prosses(array, array_members)
 
 if __name__ == "__main__":
     main()
