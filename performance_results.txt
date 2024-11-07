@@ -1,0 +1,259 @@
+         2304479 function calls (2304133 primitive calls) in 37.188 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    13384   16.950    0.001   22.978    0.002 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:5247(delete)
+        1    8.686    8.686   31.857   31.857 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_prosses/measures_of_central_tendency.py:5(remove_date_repeated)
+    13498    6.009    0.000    6.009    0.000 {built-in method numpy.empty}
+        1    2.445    2.445   34.320   34.320 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_prosses/measures_of_central_tendency.py:20(daily_freq_message)
+        1    1.657    1.657    1.659    1.659 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/identify_members.py:16(identify_members)
+    69747    0.449    0.000    0.524    0.000 /usr/lib/python3.12/re/__init__.py:280(_compile)
+1720117/1719902    0.183    0.000    0.183    0.000 {built-in method builtins.len}
+    56104    0.162    0.000    0.602    0.000 /usr/lib/python3.12/re/__init__.py:174(search)
+    14026    0.112    0.000    0.714    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/validate_data.py:9(msj_line_validator)
+        1    0.068    0.068    0.235    0.235 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/data_to_array.py:36(filds_to_elements)
+        1    0.048    0.048    0.770    0.770 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/validate_data.py:25(array_line_validator)
+    13642    0.040    0.000    0.158    0.000 /usr/lib/python3.12/re/__init__.py:164(match)
+        1    0.040    0.040    0.072    0.072 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/data_to_array.py:20(remove_spaces_of_list)
+     20/9    0.037    0.002    0.042    0.005 /usr/lib/python3.12/re/_parser.py:512(_parse)
+       41    0.032    0.001    0.032    0.001 {built-in method numpy.array}
+    56104    0.025    0.000    0.025    0.000 {method 'search' of 're.Pattern' objects}
+   123394    0.023    0.000    0.025    0.000 {built-in method builtins.isinstance}
+    13642    0.022    0.000    0.030    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/data_to_array.py:12(remove_spaces)
+       40    0.017    0.000    0.017    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+    13384    0.014    0.000    0.014    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:5243(_delete_dispatcher)
+     60/6    0.012    0.000    0.016    0.003 /usr/lib/python3.12/re/_compiler.py:37(_compile)
+     6158    0.010    0.000    0.010    0.000 {built-in method posix.lstat}
+    13645    0.010    0.000    0.010    0.000 {method 'match' of 're.Pattern' objects}
+    13642    0.008    0.000    0.008    0.000 {method 'replace' of 'str' objects}
+     6158    0.008    0.000    0.013    0.000 <frozen posixpath>:71(join)
+       76    0.008    0.000    0.012    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:517(sanitize_array)
+       38    0.007    0.000    0.048    0.001 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/frame.py:694(__init__)
+       76    0.007    0.000    0.025    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:475(__new__)
+      623    0.007    0.000    0.033    0.000 <frozen posixpath>:432(_joinrealpath)
+    13384    0.007    0.000    0.007    0.000 {method 'wrap' of 'numpy._core._multiarray_umath._array_converter' objects}
+       38    0.007    0.000    0.038    0.001 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/construction.py:237(ndarray_to_mgr)
+    13384    0.005    0.000    0.005    0.000 {method 'as_arrays' of 'numpy._core._multiarray_umath._array_converter' objects}
+        2    0.005    0.002    0.006    0.003 {method 'readlines' of '_io._IOBase' objects}
+    13642    0.004    0.000    0.004    0.000 {method 'groups' of 're.Match' objects}
+    28115    0.004    0.000    0.004    0.000 {method 'append' of 'list' objects}
+    69/16    0.003    0.000    0.003    0.000 /usr/lib/python3.12/re/_parser.py:178(getwidth)
+    13642    0.003    0.000    0.003    0.000 {method 'strip' of 'str' objects}
+       33    0.002    0.000    0.002    0.000 /usr/lib/python3.12/re/_compiler.py:243(_optimize_charset)
+     9102    0.002    0.000    0.002    0.000 {method 'endswith' of 'str' objects}
+     8028    0.002    0.000    0.003    0.000 <frozen posixpath>:41(_get_sep)
+     8029    0.002    0.000    0.002    0.000 {method 'startswith' of 'str' objects}
+        1    0.002    0.002    2.768    2.768 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/main_data_preparation.py:6(main_data_preparation)
+     6158    0.002    0.000    0.002    0.000 {method 'partition' of 'str' objects}
+       76    0.002    0.000    0.027    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:7593(ensure_index)
+      684    0.001    0.000    0.002    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/generic.py:42(_instancecheck)
+        1    0.001    0.001    0.046    0.046 /usr/lib/python3.12/inspect.py:988(getmodule)
+      239    0.001    0.000    0.001    0.000 /usr/lib/python3.12/re/_parser.py:240(__next)
+      624    0.001    0.000    0.006    0.000 /usr/lib/python3.12/inspect.py:951(getsourcefile)
+    10522    0.001    0.000    0.001    0.000 {built-in method posix.fspath}
+      536    0.001    0.000    0.001    0.000 {built-in method posix.stat}
+        1    0.001    0.001   37.140   37.140 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/main.py:9(main)
+     1870    0.001    0.000    0.002    0.000 <frozen posixpath>:60(isabs)
+       76    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:649(_simple_new)
+        1    0.001    0.001   34.321   34.321 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_prosses/main_data_prosses.py:22(main_data_prosses)
+      120    0.001    0.000    0.001    0.000 {built-in method _codecs.utf_8_decode}
+      467    0.001    0.000    0.001    0.000 /usr/lib/python3.12/re/_parser.py:168(__getitem__)
+      684    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/generic.py:37(_check)
+     6158    0.001    0.000    0.001    0.000 {built-in method _stat.S_ISLNK}
+     1248    0.001    0.000    0.002    0.000 {built-in method builtins.any}
+     1247    0.001    0.000    0.003    0.000 <frozen posixpath>:408(abspath)
+       76    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/numpy/_core/numeric.py:303(full)
+      624    0.001    0.000    0.008    0.000 /usr/lib/python3.12/inspect.py:976(getabsfile)
+      623    0.001    0.000    0.036    0.000 <frozen posixpath>:423(realpath)
+     1247    0.001    0.000    0.001    0.000 {built-in method posix._path_normpath}
+      114    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:481(ensure_wrapped_if_datetimelike)
+     2318    0.001    0.000    0.001    0.000 /usr/lib/python3.12/inspect.py:961(<genexpr>)
+       38    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py:1156(maybe_infer_to_datetimelike)
+       76    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:609(_dtype_to_subclass)
+     16/6    0.001    0.000    0.042    0.007 /usr/lib/python3.12/re/_parser.py:452(_parse_sub)
+       38    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py:123(maybe_convert_platform)
+       38    0.001    0.000    0.049    0.001 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/print_data/create_xlsx_2d.py:5(create_xlsx_2d)
+       76    0.001    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:696(_sanitize_ndim)
+        1    0.001    0.001   37.140   37.140 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:759(f)
+      120    0.000    0.000    0.001    0.000 <frozen codecs>:319(decode)
+      190    0.000    0.000    0.002    0.000 /usr/lib/python3.12/re/_parser.py:261(get)
+     1872    0.000    0.000    0.001    0.000 /usr/lib/python3.12/inspect.py:958(<genexpr>)
+      114    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:7688(maybe_extract_name)
+       33    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:216(_compile_charset)
+       76    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:1434(_is_dtype_type)
+     1376    0.000    0.000    0.001    0.000 /usr/lib/python3.12/inspect.py:298(ismodule)
+       38    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:2095(create_block_manager_from_blocks)
+       38    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/config.py:127(_get_single_key)
+      714    0.000    0.000    0.001    0.000 /usr/lib/python3.12/inspect.py:911(getfile)
+       33    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:372(_escape)
+      736    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     1743    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      169    0.000    0.000    0.001    0.000 /usr/lib/python3.12/re/_parser.py:256(match)
+        6    0.000    0.000    0.003    0.000 /usr/lib/python3.12/re/_compiler.py:511(_compile_info)
+        1    0.000    0.000    0.049    0.049 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/print_data/create_xlsx_2d.py:15(create_xlsx_2d_for_all)
+      114    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/inference.py:334(is_hashable)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/generic.py:278(__init__)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/construction.py:196(mgr_to_mgr)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:416(extract_array)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:591(_ensure_array)
+       38    0.000    0.000    0.028    0.001 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/construction.py:742(_get_axes)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:735(_sanitize_str_dtypes)
+      535    0.000    0.000    0.001    0.000 <frozen genericpath>:16(exists)
+      152    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:1331(is_ea_or_datetimelike_dtype)
+       38    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py:2703(new_block_2d)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py:2645(maybe_coerce_values)
+       38    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:1081(is_numeric_dtype)
+       38    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/config.py:145(_get_option)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/config.py:635(_get_root)
+      152    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:909(__len__)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py:2674(get_block_type)
+      148    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:164(__len__)
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       38    0.000    0.000    0.001    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:137(is_object_dtype)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:1772(_consolidate_check)
+      123    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:176(append)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py:1579(construct_1d_object_array_from_listlike)
+        6    0.000    0.000    0.019    0.003 /usr/lib/python3.12/re/_compiler.py:573(_code)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:758(_maybe_repeat)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/construction.py:585(_ensure_2d)
+      691    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       40    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:398(_simple)
+       62    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:113(__init__)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1562(__and__)
+      152    0.000    0.000    0.000    0.000 /usr/lib/python3.12/typing.py:2182(cast)
+        6    0.000    0.000    0.042    0.007 /usr/lib/python3.12/re/_parser.py:969(parse)
+      624    0.000    0.000    0.000    0.000 <frozen posixpath>:52(normcase)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:1686(name)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:1764(is_consolidated)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/config.py:676(_translate_key)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:131(<lambda>)
+        6    0.000    0.000    0.061    0.010 /usr/lib/python3.12/re/_compiler.py:740(compile)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/construction.py:405(_check_values_indices_shape_match)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:1782(_consolidate_inplace)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/config.py:649(_get_deprecated_option)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/__init__.py:34(using_copy_on_write)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/config.py:617(_select_options)
+       66    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:293(tell)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:1270(is_1d_only_ea_dtype)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py:831(_reset_identity)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:467(_get_charset_prefix)
+      7/6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:436(_get_literal_prefix)
+       38    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1129(__new__)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:726(__call__)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/flags.py:51(__init__)
+       36    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1544(_get_value)
+       76    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/numpy/_core/multiarray.py:1101(copyto)
+       78    0.000    0.000    0.000    0.000 /usr/lib/python3.12/tokenize.py:569(_generate_tokens_from_c_tokenizer)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/_config/__init__.py:55(using_pyarrow_string_dtype)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/construction.py:688(_sanitize_non_ordered)
+       22    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:126(_classes_and_not_datetimelike)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:1239(getblock)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:913(__init__)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:121(classes)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:853(show_results)
+       38    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py:123(<lambda>)
+       76    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+      266    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       34    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:231(__init__)
+       38    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _io.open}
+       40    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:172(__setitem__)
+      153    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x7a50f95b2580}
+      124    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       38    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method sys.settrace}
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:86(opengroup)
+       77    0.000    0.000    0.000    0.000 /usr/lib/python3.12/collections/__init__.py:447(_make)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:953(fix_flags)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        3    0.000    0.000    0.032    0.011 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/data_to_array.py:4(python_list_to_numpy)
+      114    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        9    0.000    0.000    0.001    0.000 /usr/lib/python3.12/re/_parser.py:98(closegroup)
+       31    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:83(groups)
+       77    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:1196(tokeneater)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:428(_get_iscased)
+       35    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:77(__init__)
+        1    0.000    0.000    0.047    0.047 /usr/lib/python3.12/inspect.py:1070(findsource)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/tokenize.py:445(open)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:570(isstring)
+        1    0.000    0.000   37.188   37.188 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:1185(wrapper)
+        1    0.000    0.000    0.047    0.047 /usr/lib/python3.12/inspect.py:1258(getsourcelines)
+       57    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.047    0.047 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:645(add)
+       11    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:31(_combine_flags)
+        1    0.000    0.000    0.049    0.049 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/print_data/main_print_data.py:4(main_print_data)
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.TextIOWrapper' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        2    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:740(_count_ctxmgr)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/linecache.py:80(updatecache)
+       19    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:695(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:782(disable_by_count)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:141(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/tokenize.py:352(detect_encoding)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/linecache.py:36(getlines)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:754(unwrap)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:702(__init__)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:1201(choose_backend)
+      4/2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/typing.py:3307(__getattribute__)
+        1    0.000    0.000    0.047    0.047 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:713(__call__)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:689(items)
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:842(enable)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:299(helper)
+        1    0.000    0.000    0.006    0.006 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/validate_data.py:3(file_to_list)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/tokenize.py:382(find_cookie)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:391(_has_code_flag)
+        6    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.047    0.047 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:728(add_function)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/cProfile.py:119(__exit__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.12/re/__init__.py:226(compile)
+        7    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/modules/data_preparation/load_file.py:3(load_file)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:132(__enter__)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:849(disable)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:427(iscoroutinefunction)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:775(enable_by_count)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:449(_uniq)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:104(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:475(istraceback)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:499(iscode)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:748(wrap_function)
+        2    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/asyncio/coroutines.py:20(iscoroutinefunction)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:1187(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/tokenize.py:376(read_or_stop)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:412(_has_coroutine_mark)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:485(isframe)
+        1    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:640(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        6    0.000    0.000    0.000    0.000 /home/simuladordefarm3/Documentos/PersonalProyects/WhatsAppMetrics/venv/lib/python3.12/site-packages/memory_profiler.py:1215(<genexpr>)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/tokenize.py:488(generate_tokens)
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:306(ismethod)
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/functools.py:419(_unwrap_partial)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:378(isfunction)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/inspect.py:302(isclass)
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/linecache.py:52(checkcache)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.gettrace}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.getrecursionlimit}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+
+

@@ -43,6 +43,8 @@ def daily_freq_message(data_matrix, member_unique_array):
     frequency = [[0] * len_member_unique_array  for _ in range(number_of_days)]
 #    frequency = [0] * len_member_unique_array
     dia = 0
+
+   
     
     for i in range (0, len_msj_vector):
 
@@ -50,7 +52,8 @@ def daily_freq_message(data_matrix, member_unique_array):
             
             if msj_vector[i] == member_unique_array[j]:
                 member = j
-
+          
+        
         if i == 0:
             frequency[dia][member] = frequency[dia][member] + 1
         else:
@@ -62,6 +65,6 @@ def daily_freq_message(data_matrix, member_unique_array):
 
     frequency = python_list_to_numpy(frequency)
     #print(frequency)
-
+   
     return frequency
     #for i in range (0, )

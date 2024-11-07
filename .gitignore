@@ -3,3 +3,5 @@ Chat.txt
 /venv
 *.pyc
 /__pycache__
+*.xlsx
+performance_results.txt

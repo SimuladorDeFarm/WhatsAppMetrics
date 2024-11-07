@@ -9,7 +9,7 @@ def create_xlsx_2d(array, nombre):
     df.index.name = 'Día'
 
     # Guardar en archivo Excel
-    df.to_excel(f"./modules/print_data/daily_freq_table/daily_freq{nombre}.xlsx")
+    #df.to_excel(f"./modules/print_data/daily_freq_table/daily_freq_{nombre}.xlsx")
 
 #cycle to create each fild
 def create_xlsx_2d_for_all(array, array_members):
