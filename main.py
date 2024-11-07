@@ -8,7 +8,10 @@ def main():
     
     #convert_txt_to_csv(array)
 
-    main_data_prosses(array, array_members)
+    daily_freq = main_data_prosses(array, array_members)
+
+
+    main_print_data(daily_freq, array_members)
 
 if __name__ == "__main__":
     main()

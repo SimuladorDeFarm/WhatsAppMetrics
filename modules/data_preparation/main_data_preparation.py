@@ -15,7 +15,9 @@ def main_data_preparation():
 
     array = filds_to_elements(array)
 
+
     array = python_list_to_numpy(array)
+
 
     array_members = identify_members(array)
 

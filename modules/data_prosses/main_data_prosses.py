@@ -21,4 +21,6 @@ def test():
 
 def main_data_prosses(data_matrix, members_array):
 
-    daily_freq_message(data_matrix, members_array )
+    daily_freq = daily_freq_message(data_matrix, members_array )
+
+    return daily_freq

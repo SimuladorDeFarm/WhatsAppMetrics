@@ -29,6 +29,7 @@ def remove_spaces_of_list(array):
         
         i+=1
     
+   
     return array_without_spaces
 
 
@@ -38,7 +39,7 @@ def filds_to_elements(array):
     #matrix = [[""] * 4 for _ in range(array_len)]
     matrix = []
 
-    pattern = r"(\d{2}/\d{2}/\d{4}),(\d{2}:\d{2})-(.*?):(.+)"
+    pattern = r"(\d{1,2}/\d{1,2}/\d{4}),(\d{2}:\d{2})-(.*?):(.+)"
 
 
     for line in array:

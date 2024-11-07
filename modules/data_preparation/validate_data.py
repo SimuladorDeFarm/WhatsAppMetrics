@@ -8,13 +8,18 @@ def file_to_list(file):
 
 def msj_line_validator(text):
     
+
     # validation hh
-    match = re.search(r"^\d{1,2}/\d{1,2}/\d{4}, \d{2}:\d{2} -.+:.+$", text)
+    match1 = re.search(r"^\d{2}/\d{2}/\d{4}, \d{2}:\d{2} -.+:.+$", text)
+    match2 = re.search(r"^\d{1}/\d{2}/\d{4}, \d{2}:\d{2} -.+:.+$", text)
+    match3 = re.search(r"^\d{2}/\d{1}/\d{4}, \d{2}:\d{2} -.+:.+$", text)
+    match4 = re.search(r"^\d{1}/\d{1}/\d{4}, \d{2}:\d{2} -.+:.+$", text)
     
-    if match == None:
-        return False
-    else:
+
+    if match1 != None or match2 != None or match3 != None or match4 != None  :
         return True
+    else:
+        return False
 
 
 def array_line_validator(file):
@@ -29,7 +34,7 @@ def array_line_validator(file):
             i-=1
         
         i+=1
-
+    
     return lines
     
 
