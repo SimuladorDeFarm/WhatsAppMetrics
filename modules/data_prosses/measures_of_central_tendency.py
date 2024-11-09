@@ -15,7 +15,26 @@ def remove_date_repeated(l):
                 j = j + 1
 
     return l
-                
+
+def calculate_total_freq(daily_freq):
+
+    len_row_daily_freq = len(daily_freq)
+    len_column_daily_freq = len(daily_freq[0])
+    
+    total_freq = []
+    
+    for i in range (0, len_column_daily_freq):
+        #row = daily_freq[:, i].ravel()
+        total_freq.append(0)
+        for j in range (0, len_row_daily_freq):
+            
+            total_freq[i]  = total_freq[i] + daily_freq[j][i]
+        
+    total_freq = python_list_to_numpy(total_freq)
+    
+    return total_freq      
+
+
 
 def daily_freq_message(data_matrix, member_unique_array):
 

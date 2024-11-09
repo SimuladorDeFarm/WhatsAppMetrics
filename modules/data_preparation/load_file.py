@@ -2,6 +2,6 @@
 
 def load_file():
     
-    file = open("./modules/data_base/Chat.txt", "r")
+    file = open("./modules/data_base/Test.txt", "r")
     
     return file

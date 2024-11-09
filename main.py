@@ -19,7 +19,7 @@ def main():
     daily_freq = main_data_prosses(array, array_members)
 
 
-    main_print_data(daily_freq, array_members)
+    #main_print_data(daily_freq, array_members)
     
     # Código a medir
     end_time = time.time()

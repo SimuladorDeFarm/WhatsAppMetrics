@@ -18,10 +18,21 @@ def test():
     print(matrix)
 
 
+def print_results(members_array, total_freq):
+
+    for i in range (0, len(members_array)):
+        print("total frequency of speak:")
+        print(members_array[i], ": ", total_freq[i])
+
 
 def main_data_prosses(data_matrix, members_array):
 
     print("Calculando frecuencias...")
     daily_freq = daily_freq_message(data_matrix, members_array )
+
+    total_freq = calculate_total_freq(daily_freq)
+
+    #remove this and move to printing data directory
+    print_results(members_array, total_freq)
 
     return daily_freq
