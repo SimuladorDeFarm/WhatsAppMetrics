@@ -1,8 +1,11 @@
 from modules.print_data.create_xlsx_2d import *
+from modules.print_data.print_results import *
 
 
-def main_print_data(array, array_members):
+def main_print_data(daily_freq, array_members, total_freq):
+
+    print_results(total_freq, array_members)
 
     print("creando archivos...")
-    create_xlsx_2d_for_all(array, array_members)
+    create_xlsx_2d_for_all(daily_freq, array_members)
     print("Archivos creados correctamente")

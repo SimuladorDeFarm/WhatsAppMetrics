@@ -6,20 +6,23 @@ from memory_profiler import profile
 import cProfile
 import pstats
 
+
+
 @profile
 def main():
     
     start_time = time.time()
 
     #prepare the data: extract of file, validate data and transform into numpy array
-    array, array_members = main_data_preparation()
+    name = "Test" 
+    array, array_members = main_data_preparation(name)
     
     #convert_txt_to_csv(array)
 
-    daily_freq = main_data_prosses(array, array_members)
+    daily_freq, total_freq = main_data_prosses(array, array_members)
 
 
-    #main_print_data(daily_freq, array_members)
+    main_print_data(daily_freq, array_members, total_freq)
     
     # Código a medir
     end_time = time.time()

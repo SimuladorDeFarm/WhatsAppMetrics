@@ -1,7 +1,7 @@
 
 
-def load_file():
+def load_file(name):
     
-    file = open("./modules/data_base/Test.txt", "r")
+    file = open(f"./modules/data_base/{name}.txt", "r")
     
     return file

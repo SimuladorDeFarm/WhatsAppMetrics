@@ -3,10 +3,10 @@ from modules.data_preparation.load_file         import *
 from modules.data_preparation.validate_data     import *
 from modules.data_preparation.identify_members  import *
 
-def main_data_preparation():
+def main_data_preparation(name):
     
     print("Cargando archivo...")
-    file = load_file()
+    file = load_file(name)
 
     print("validando linea")
     array = array_line_validator(file)

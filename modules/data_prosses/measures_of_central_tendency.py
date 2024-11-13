@@ -15,6 +15,7 @@ def remove_date_repeated(l):
                 j = j + 1
 
     return l
+ 
 
 def calculate_total_freq(daily_freq):
 
@@ -29,6 +30,8 @@ def calculate_total_freq(daily_freq):
         for j in range (0, len_row_daily_freq):
             
             total_freq[i]  = total_freq[i] + daily_freq[j][i]
+    
+    #total_freq.sort(reverse=True)
         
     total_freq = python_list_to_numpy(total_freq)
     
