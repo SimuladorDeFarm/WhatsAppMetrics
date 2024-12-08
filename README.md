@@ -1,4 +1,4 @@
-# Herramienta en python para analisis de frecuencias en chats de Whatsapp
+# Herramienta en python para analisis de frecuencias en chats de Whatsapp in fukin proseso
 
 ## Resumen
 Herramienta escrita en python que genera estadisticas de mensajes de chats de 
