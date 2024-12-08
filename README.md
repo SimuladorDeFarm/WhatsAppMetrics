@@ -26,7 +26,7 @@ al estar en archivo .txt es visible para cualquier persona
 Puedes ejecutar manualmente los comandos o usar el archivo "script.sh" si es que 
 sabes un poco de bashscriptig
 
-#### Linux
+#### LinuxR
 ```bash
 $ git clone https://github.com/SimuladorDeFarm/Contador_mensajes_wsp.git
 $ cd Contador_mensajes_wsp 
