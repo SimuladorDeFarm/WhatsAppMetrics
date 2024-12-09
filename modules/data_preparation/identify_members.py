@@ -15,7 +15,7 @@ def imprimir_matriz_j(array, n):
 #retorn list whit users without repeating
 def identify_members(data_array):
     
-    # currentply members is in i = 2
+    #the members are saved in the position 2 of the data array that contains alls data
     members = 2
 
     #obtain how many rows have  
@@ -39,7 +39,7 @@ def identify_members(data_array):
 
     
     array_members = python_list_to_numpy(array_members)
-
+    
     return array_members
 
 

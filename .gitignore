@@ -4,4 +4,5 @@ Chat.txt
 *.pyc
 /__pycache__
 *.xlsx
+*.csv
 performance_results.txt
