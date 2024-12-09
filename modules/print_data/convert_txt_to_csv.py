@@ -8,7 +8,7 @@ def create_and_save_csv(array):
 
     DF = pd.DataFrame(array)
 
-    DF.to_csv("files/messages.csv")
+    DF.to_csv("files/messages.xlsx")
 
 
 
