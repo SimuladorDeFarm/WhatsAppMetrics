@@ -1,6 +1,5 @@
 #! /bin/bash
 
-
 git add .
 git status
 echo "Commit name:"
