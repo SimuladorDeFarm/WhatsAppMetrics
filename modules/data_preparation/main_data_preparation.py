@@ -3,11 +3,14 @@ from modules.data_preparation.load_file         import *
 from modules.data_preparation.validate_data     import *
 from modules.data_preparation.identify_members  import *
 from modules.data_preparation.obtainFileWsp     import *
+from modules.data_preparation.input             import *
 
 def main_data_preparation(name):
     
-    shared_link = "https://drive.google.com/file/d/1anBiGlkD8Fj-WBXWRoCoBMpCJGqbdJyc/view?usp=drive_link"
+    #shared_link = "https://drive.google.com/file/d/1anBiGlkD8Fj-WBXWRoCoBMpCJGqbdJyc/view?usp=drive_link"
     
+    shared_link = inputLink()
+
     print("Cargando archivo...")
     lines = main_obtain_files_wsp(shared_link)
 
