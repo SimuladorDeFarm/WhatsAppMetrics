@@ -22,9 +22,7 @@ def msj_line_validator(text):
         return False
 
 
-def array_line_validator(file):
-
-    lines = file_to_list(file)
+def array_line_validator(lines):
 
     i = 0    
     while i < len(lines):
