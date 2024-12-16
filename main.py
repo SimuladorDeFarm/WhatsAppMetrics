@@ -6,13 +6,12 @@ from memory_profiler import profile
 import cProfile
 import pstats
 
-
-
+    
 #@profile
 def main():
     
     start_time = time.time()
-
+    
     
     #prepare the data: extract of file, validate data and transform into numpy array
     fileName = "Test" 
