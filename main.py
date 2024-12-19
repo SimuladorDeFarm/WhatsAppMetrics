@@ -15,13 +15,13 @@ def main():
     
     #prepare the data: extract of file, validate data and transform into numpy array
     fileName = "Test" 
-    array, array_members = main_data_preparation(fileName)
+    array, array_members, group_name = main_data_preparation()
     
 
     daily_freq, total_freq = main_data_prosses(array, array_members)
 
     
-    main_print_data(daily_freq, array_members, total_freq, fileName)
+    main_print_data(daily_freq, array_members, total_freq, group_name)
     
     # Código a medir
     end_time = time.time()

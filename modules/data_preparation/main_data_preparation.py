@@ -5,14 +5,14 @@ from modules.data_preparation.identify_members  import *
 from modules.data_preparation.obtainFileWsp     import *
 from modules.data_preparation.input             import *
 
-def main_data_preparation(name):
+def main_data_preparation():
     
     #shared_link = "https://drive.google.com/file/d/1anBiGlkD8Fj-WBXWRoCoBMpCJGqbdJyc/view?usp=drive_link"
     
     shared_link = inputLink()
 
     print("Cargando archivo...")
-    lines = main_obtain_files_wsp(shared_link)
+    lines, group_name = main_obtain_files_wsp(shared_link)
 
     print("validando linea")
     array = array_line_validator(lines)
@@ -29,4 +29,4 @@ def main_data_preparation(name):
     print("identificando miembros...")
     array_members = identify_members(array)
 
-    return array, array_members
+    return array, array_members, group_name
