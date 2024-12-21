@@ -8,6 +8,8 @@ from modules.data_preparation.input             import *
 def main_data_preparation():
     
     #shared_link = "https://drive.google.com/file/d/1anBiGlkD8Fj-WBXWRoCoBMpCJGqbdJyc/view?usp=drive_link"
+
+    #test link = https://drive.google.com/file/d/1m9xAsvkPo2qhpiqTLYSD9DT_jMu_Rsfj/view?usp=drive_link
     
     shared_link = inputLink()
 

@@ -4,7 +4,7 @@ from modules.print_data.convert_txt_to_csv import *
 
 def main_print_data(daily_freq, array_members, total_freq, grup_name):
 
-    print_results(total_freq, array_members)
+    #print_results(total_freq, array_members)
 
 
 

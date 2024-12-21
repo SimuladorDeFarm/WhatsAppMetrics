@@ -1,15 +1,18 @@
 import numpy as np
 from modules.data_preparation.data_to_array import python_list_to_numpy
 
-
+# metodo de fuersza fruta es ineficiente, se deor mucho
 def remove_date_repeated(l):
-
+    #len(l) es necesario porque al ir eliminando el largo se va modifciando
+    print("removiendo datos repetidos...")
     for i in range (0, len(l) - 1):
         j = i + 1
 
         while j < len(l):            
             
             if l[i] == l[j]:
+                
+
                 l = np.delete(l, j)
             else:
                 j = j + 1
@@ -52,8 +55,10 @@ def daily_freq_message(data_matrix, member_unique_array):
     #contar cantidad de dias
     #number_of_days = len(date_vector_unique)
     
-    #i maked the function manually but resulto what the original was god
-    date_vector_unique = remove_date_repeated(date_vector)
+    #i maked the function manually but result what the original was god
+    date_vector_unique = np.unique(date_vector)
+    
+    #date_vector_unique = remove_date_repeated(date_vector)
     number_of_days = len(date_vector_unique)
     
 
@@ -69,9 +74,13 @@ def daily_freq_message(data_matrix, member_unique_array):
    
     
     for i in range (0, len_msj_vector):
+        print(f"\r ({i + 1}/{len_msj_vector}) calculando frecuencias diarias... ", end="", flush=True)
 
         for j in range(0, len_member_unique_array):
             
+
+
+
             if msj_vector[i] == member_unique_array[j]:
                 member = j
           
@@ -86,6 +95,7 @@ def daily_freq_message(data_matrix, member_unique_array):
                 frequency[dia][member] = frequency[dia][member] + 1
 
     frequency = python_list_to_numpy(frequency)
+    print()
     #print(frequency)
    
     return frequency

@@ -2,16 +2,26 @@ from modules.utils import *
 import numpy as np
 import time
 from memory_profiler import profile
+import os
 
 import cProfile
 import pstats
 
     
+def title():
+    print("*--------------------------------*\n|                                |\n|       WHATSAPP METRCIS         |\n|                                |\n*--------------------------------*")
+
+
 #@profile
 def main():
     
+    os.system("clear")
+
+
     start_time = time.time()
     
+
+    title()
     
     #prepare the data: extract of file, validate data and transform into numpy array
     fileName = "Test" 
