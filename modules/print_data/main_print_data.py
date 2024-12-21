@@ -8,6 +8,6 @@ def main_print_data(daily_freq, array_members, total_freq, grup_name):
 
 
 
-    print("creando archivos...")
+    print("(9/10) Creando archivos...")
     create_xlsx_2d(daily_freq, array_members, grup_name)
-    print("Archivos creados correctamente")
+    print("(10/10) Archivos creados correctamente")

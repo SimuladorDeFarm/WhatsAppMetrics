@@ -5,7 +5,7 @@ import numpy as np
 
 def main_data_prosses(data_matrix, members_array):
 
-    print("Calculando frecuencias...")
+    print("(7/10) Calculando frecuencias...")
     daily_freq = daily_freq_message(data_matrix, members_array )
 
     total_freq = calculate_total_freq(daily_freq)

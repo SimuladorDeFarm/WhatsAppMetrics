@@ -74,16 +74,15 @@ def daily_freq_message(data_matrix, member_unique_array):
    
     
     for i in range (0, len_msj_vector):
-        print(f"\r ({i + 1}/{len_msj_vector}) calculando frecuencias diarias... ", end="", flush=True)
+        
+        if (i % 100 == 0) or (i == len_msj_vector - 1):
+            print(f"\r ({i + 1}/{len_msj_vector}) calculando frecuencias diarias... ", end="", flush=True) 
 
         for j in range(0, len_member_unique_array):
             
-
-
-
             if msj_vector[i] == member_unique_array[j]:
                 member = j
-          
+
         
         if i == 0:
             frequency[dia][member] = frequency[dia][member] + 1

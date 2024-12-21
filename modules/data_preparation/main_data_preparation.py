@@ -7,28 +7,24 @@ from modules.data_preparation.input             import *
 
 def main_data_preparation():
     
-    #shared_link = "https://drive.google.com/file/d/1anBiGlkD8Fj-WBXWRoCoBMpCJGqbdJyc/view?usp=drive_link"
-
-    #test link = https://drive.google.com/file/d/1m9xAsvkPo2qhpiqTLYSD9DT_jMu_Rsfj/view?usp=drive_link
-    
     shared_link = inputLink()
 
-    print("Cargando archivo...")
+    print("(1/10) Cargando archivo...")
     lines, group_name = main_obtain_files_wsp(shared_link)
 
-    print("validando linea")
+    print("(2/10) Validando datos...")
     array = array_line_validator(lines)
     
-    print("removiendo espacios")
+    print("(3/10) Removiendo espacios...")
     array = remove_spaces_of_list(array)
 
-    print("campos a elementos")
+    print("(4/10) Campos a elementos...")
     array = filds_to_elements(array)
 
-    print("array a numpy")
+    print("(5/10) Array a numpy...")
     array = python_list_to_numpy(array)
 
-    print("identificando miembros...")
+    print("(6/10) Identificando miembros...")
     array_members = identify_members(array)
 
     return array, array_members, group_name
