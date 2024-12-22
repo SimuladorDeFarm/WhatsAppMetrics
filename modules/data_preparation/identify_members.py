@@ -25,6 +25,8 @@ def identify_members(data_array):
     array_members.append(data_array[0][members])
 
     #recorring data_array and compare if one member is identificate, if not, is added
+
+    memer_count = 0
     for i in range(1, data_array_row_len):
 
         is_in = False
@@ -34,10 +36,12 @@ def identify_members(data_array):
                 is_in = True
         
         if not is_in: 
-
+            memer_count+=1
+            print(f"\r  ({memer_count}) Contando miembros... ", end="", flush=True) 
+            
             array_members.append(data_array[i][members])
 
-    
+    print()
     array_members = python_list_to_numpy(array_members)
     
     return array_members
