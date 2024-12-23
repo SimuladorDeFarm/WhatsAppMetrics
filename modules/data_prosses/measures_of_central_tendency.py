@@ -1,5 +1,5 @@
 import numpy as np
-from modules.data_preparation.filds_to_elements import python_list_to_numpy
+from modules.data_preparation.parsing.array_parser import python_list_to_numpy
 
 # metodo de fuersza fruta es ineficiente, se deor mucho
 def remove_date_repeated(l):
