@@ -15,7 +15,13 @@ import pstats
 
     
 def title():
-    print("*--------------------------------*\n|                                |\n|       WHATSAPP METRCIS         |\n|                                |\n*--------------------------------*")
+    print(r"""
+╔════════════════════════════════╗
+║                                ║
+║       WHATSAPP METRICS         ║
+║                                ║
+╚════════════════════════════════╝
+""")
 
 
 #@profile
@@ -41,9 +47,9 @@ def main():
     
     # Código a medir
     end_time = time.time()
-    print("Tiempo de ejecución:", end_time - start_time, "segundos")
+    #print("Tiempo de ejecución:", end_time - start_time, "segundos")
 
-
+    print()
 
 main()
 '''

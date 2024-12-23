@@ -1,4 +1,4 @@
-from modules.data_preparation.data_to_array     import *
+from modules.data_preparation.filds_to_elements import *
 from modules.data_preparation.load_file         import *
 from modules.data_preparation.validate_data     import *
 from modules.data_preparation.identify_members  import *
