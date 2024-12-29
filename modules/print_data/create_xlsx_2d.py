@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-def create_xlsx_2d(array, nombre, grup_name):
+def create_xlsx_2d(array, nombre, grup_name, user_directory):
 
 
     # Crear DataFrame con el índice como días y las frecuencias en una columna
@@ -10,7 +10,7 @@ def create_xlsx_2d(array, nombre, grup_name):
     df.index.name = 'Día'
 
     # saved in exel file
-    df.to_excel(f"./files/user_daily_freq_{grup_name}.xlsx")
+    df.to_excel(f"{user_directory.get_directory()}/user_daily_freq_{grup_name}.xlsx")
 
 #cycle to create each fild 
 def create_xlsx_2d_for_all(array, array_members):

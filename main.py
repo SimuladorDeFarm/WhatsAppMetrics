@@ -32,6 +32,11 @@ def main():
 
     start_time = time.time()
     
+    
+    user_directory = Directorio()
+
+    verify_or_create_user_dir(user_directory)
+    
 
     title()
     
@@ -43,7 +48,7 @@ def main():
     daily_freq, total_freq = main_data_prosses(array, array_members)
 
     
-    main_print_data(daily_freq, array_members, total_freq, group_name)
+    main_print_data(daily_freq, array_members, total_freq, group_name, user_directory)
     
     # Código a medir
     end_time = time.time()
